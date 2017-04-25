@@ -79,6 +79,11 @@ pickle-email-*.html
 # Environment files that may contain sensitive data
 .env
 .powenv
+/config/local_env.yml
+
 
 # tilde files are usually backup files from a text editor
 *~
+
+# Ignore application configuration
+/config/application.yml
